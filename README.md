@@ -1,2 +1,37 @@
-# Socket-Serialization-Methods-Comparison
-This repository contains an experimental study comparing three different message-dispatch approaches over TCP sockets.
+# Socket-Dispatch-Methods-Comparison
+
+Implementation of three different message dispatch methods over TCP sockets, focusing on comparing performance, packet size, and message structure.
+
+*by Leonardo de Freitas*
+
+---
+
+## How to run
+
+### **Prerequisites**
+
+1. Make sure the TCP server is running and accepting connections.
+2. Tests were performed in a local environment, but any network that allows direct client–server communication works.
+3. If something goes wrong, check your machine’s IP using `ipconfig` (Windows) or `ifconfig` (Linux/macOS).
+
+---
+
+### **Running the Methods**
+
+Inside the `./src` directory, you will find three executable clients:
+
+- `client_string.exe`  
+- `client_json.exe`  
+- `client_structured.exe`
+
+Each client sends the same set of operations (**Auth**, **Echo**, **Sum**) but using different message formats (String, JSON, and Structured Binary).
+
+#### **Steps**
+
+1. Open a terminal inside the `/src` folder.
+2. Run any of the clients:
+
+```bash
+./client_string.exe
+./client_json.exe
+./client_structured.exe
