@@ -27,11 +27,11 @@ Inside the `./dist` directory, you will find three executable clients:
 Each client sends the same set of operations (**Auth**, **Echo**, **Sum**, and many other queries) but using different message formats (String, JSON, and Protobuffers).
 
 #### **Steps**
-1. Double-click the executable programs
+1. Open a terminal inside the `/dist` folder.
+2. Double-click the executable programs
 
    or
    
-1. Open a terminal inside the `/dist` folder.
 2. Run any of the clients:
 
 ```bash
