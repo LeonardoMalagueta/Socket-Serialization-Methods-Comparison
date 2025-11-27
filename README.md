@@ -27,7 +27,10 @@ Inside the `./src` directory, you will find three executable clients:
 Each client sends the same set of operations (**Auth**, **Echo**, **Sum**) but using different message formats (String, JSON, and Structured Binary).
 
 #### **Steps**
+1. Double-click the executable programs
 
+   or
+   
 1. Open a terminal inside the `/src` folder.
 2. Run any of the clients:
 
