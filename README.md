@@ -31,7 +31,7 @@ Each client sends the same set of operations (**Auth**, **Echo**, **Sum**) but u
 
    or
    
-1. Open a terminal inside the `/src` folder.
+1. Open a terminal inside the `/dist` folder.
 2. Run any of the clients:
 
 ```bash
