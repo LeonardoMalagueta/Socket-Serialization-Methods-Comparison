@@ -35,6 +35,6 @@ Each client sends the same set of operations (**Auth**, **Echo**, **Sum**) but u
 2. Run any of the clients:
 
 ```bash
-./client_string.exe
-./client_json.exe
-./client_structured.exe
+./AclientString.exe
+./AclientJson.exe
+./AclientProto.exe
