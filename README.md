@@ -18,13 +18,13 @@ Implementation of three different message dispatch methods over TCP sockets, foc
 
 ### **Running the Methods**
 
-Inside the `./src` directory, you will find three executable clients:
+Inside the `./dist` directory, you will find three executable clients:
 
-- `client_string.exe`  
-- `client_json.exe`  
-- `client_structured.exe`
+- `AclientString.exe`  
+- `AlientJson.exe`  
+- `AlientProto.exe`
 
-Each client sends the same set of operations (**Auth**, **Echo**, **Sum**) but using different message formats (String, JSON, and Structured Binary).
+Each client sends the same set of operations (**Auth**, **Echo**, **Sum**, and many other queries) but using different message formats (String, JSON, and Protobuffers).
 
 #### **Steps**
 1. Double-click the executable programs
